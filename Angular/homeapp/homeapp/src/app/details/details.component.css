@@ -1,0 +1,139 @@
+input{
+    padding: 10px;
+    width: 400px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 0.3px;
+}
+form {
+    margin-top: 2rem;
+    width: 420px;
+}
+.alert {
+    float: right;
+    color: brown;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(298deg,rgba(238, 14, 14, 0.5835521708683473) 25%,
+    rgba(233, 89, 6, 1) 57%);
+    border-radius:10px; ;
+}
+button{
+    margin-top: 2rem;
+
+}
+@media (max-width:1024px) {
+    .listing-photo {
+        width: 100%;
+        height: 400px;
+    }
+    
+}
+
+.boton {
+    background-color: #7386f3;
+    color: #0f0e0e;
+    width: 8.5em;
+    height: 2.9em;
+    border: #3654ff 0.2em solid;
+    border-radius: 11px;
+    text-align: center;
+    transition: all 0.6s ease;
+  }
+  
+  .boton:hover {
+    background-color: #3654ff;
+    cursor: pointer;
+  }
+  
+  .boton svg {
+    width: 1.6em;
+    margin: -0.2em 0.8em 1em;
+    position: absolute;
+    display: flex;
+    transition: all 0.6s ease;
+  }
+  
+  .boton:hover svg {
+    transform: translateX(5px);
+  }
+
+
+  .form {
+    display: flex;
+    align-items:first baseline ;
+    justify-content: end;
+    flex-direction: column;
+    text-align:start;
+  }
+  
+  .form_area {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    background-color: #EDDCD9;
+    height: auto;
+    width: auto;
+    border: 2px solid #264143;
+    border-radius: 20px;
+    box-shadow: 3px 4px 0px 1px #040329;
+  }
+  
+  .title {
+    color: #3450eb;
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
+  .sub-title {
+    color: #133641;
+    margin: 5px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  input {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 10px;
+  }
+  
+  input {
+    outline: none;
+    border: 2px solid #264143;
+    box-shadow: 3px 4px 0px 1px #7a83d9;
+    width: 290px;
+    padding: 12px 10px;
+    border-radius: 4px;
+    font-size: 15px;
+  }
+  
+  input:focus, .btn:focus {
+    transform: translateY(4px);
+    box-shadow: 1px 2px 0px 0px #0a0aa9;
+  }
+  
+  .btn {
+    padding: 15px;
+    margin: 25px 0px;
+    width: 290px;
+    font-size: 15px;
+    background: #DE5499;
+    border-radius: 10px;
+    font-weight: 800;
+    box-shadow: 3px 3px 0px 0px #E99F4C;
+  }
+  
+  .btn:hover {
+    opacity: .9;
+  }
+  
+  .link {
+    font-weight: 800;
+    color: #264143;
+    padding: 5px;
+  }

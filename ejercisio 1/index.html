@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>ejercisio 1</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <form name="registrar-usuario" onsubmit="registrarse(); return false;">
+        <div>
+
+        <label for="">Nombre</label>
+
+        <input type="text" name="nombre" id="nombre-id">
+        <span id="nombre-error"></span>
+        </div>
+        <div>
+            <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido-id">
+    </div>
+    <div>
+        <label for="dni">DNI</label>
+    <input type="text" name="dni" id="dni-id">
+</div>
+        <div>
+            <label for="tipodeseguro_id">Tipo de seguro</label>
+            <select name="tipo_de_seguro" id="tipo_de_seguro-id" onchange="getTipoSeguro()">             
+               <option value="1">Basico</option>
+                <option value="2">Intermedio</option>
+                <option value="3">Premium</option>
+            </select>  <div id="mensajeValorTipoSeguro"></div>
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input type="email" name="email" id="email-id">
+        </div>
+        <div>
+            <label for="">Telefono</label>
+        <input type="text" name="telefono" id="telefono-id">
+    </div>
+        <div>
+            <label for="">Contraseña</label>
+            <input type="password" name="password" id="password-id">
+        </div>
+        <button type="submit">Registrarse</button>
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>
